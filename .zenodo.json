@@ -1,0 +1,31 @@
+{
+  "title": "Computational Pathology AI Lab",
+  "description": "Production-oriented research platform for computational pathology, explainable AI, uncertainty, whole-slide learning, and MLOps. Research and educational use only; not clinically validated.",
+  "creators": [
+    {
+      "name": "Kowsari, Faramarz",
+      "orcid": "0000-0003-1692-0453"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "publication_date": "2026-07-19",
+  "keywords": [
+    "computational pathology",
+    "medical AI",
+    "histopathology",
+    "computer vision",
+    "MLOps",
+    "explainable AI"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21444837",
+      "relation": "issupplementedby",
+      "scheme": "doi",
+      "resource_type": "publication-book"
+    }
+  ],
+  "notes": "Software DOI will be assigned from the first GitHub release. The related DOI belongs to the companion book."
+}

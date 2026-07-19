@@ -1,0 +1,8 @@
+experiment_name: foundation_linear_probe
+model:
+  name: external_pathology_encoder
+  weights: NOT_INCLUDED
+  access: Obtain weights from the model owner and review its license.
+  mode: frozen_encoder_linear_probe
+  num_classes: 2
+status: Not Yet Benchmarked

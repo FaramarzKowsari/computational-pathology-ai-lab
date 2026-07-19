@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository release and the companion book."
+title: "Computational Pathology AI Lab"
+type: software
+version: 1.0.0
+date-released: 2026-07-19
+authors:
+  - family-names: Kowsari
+    given-names: Faramarz
+    orcid: "https://orcid.org/0000-0003-1692-0453"
+repository-code: "https://github.com/FaramarzKowsari/computational-pathology-ai-lab"
+url: "https://FaramarzKowsari.github.io/computational-pathology-ai-lab/"
+license: MIT
+keywords:
+  - computational pathology
+  - medical artificial intelligence
+  - histopathology
+  - computer vision
+  - MLOps
+references:
+  - type: book
+    title: "Computational Pathology Engineering"
+    authors:
+      - family-names: Kowsari
+        given-names: Faramarz
+    doi: "10.5281/zenodo.21444837"
+    url: "https://doi.org/10.5281/zenodo.21444837"

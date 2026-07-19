@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a reproducible software defect
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "What happened?"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: "Provide minimal steps, inputs, and configuration."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: "Include OS, Python, package versions, and CPU/GPU details."
+    validations:
+      required: true

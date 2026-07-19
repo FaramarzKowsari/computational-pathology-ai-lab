@@ -1,0 +1,8 @@
+{
+  "name": "baseline-cnn-synthetic-smoke",
+  "version": "0.0-example",
+  "status": "EXAMPLE ONLY - NOT A MEDICAL BENCHMARK",
+  "checkpoint_committed": false,
+  "data": "procedurally generated synthetic patches",
+  "clinical_use": "prohibited"
+}

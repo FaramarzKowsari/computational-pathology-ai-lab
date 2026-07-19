@@ -1,0 +1,24 @@
+stages:
+  prepare:
+    cmd: python scripts/prepare_data.py --config configs/baseline_cnn.yaml
+    deps:
+      - scripts/prepare_data.py
+      - src/cpathlab/data
+      - data/raw
+    params:
+      - data
+    outs:
+      - data/processed
+  train:
+    cmd: python scripts/train.py --config configs/baseline_cnn.yaml
+    deps:
+      - scripts/train.py
+      - src/cpathlab
+      - data/processed
+    params:
+      - model
+      - training
+    outs:
+      - models/baseline.pt
+    metrics:
+      - reports/metrics.json

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Computational Pathology Drift Report",
+  "type": "object",
+  "required": ["timestamp", "reference_version", "sample_count", "channel_summary", "alerts"],
+  "properties": {
+    "timestamp": {"type": "string", "format": "date-time"},
+    "reference_version": {"type": "string"},
+    "sample_count": {"type": "integer", "minimum": 1},
+    "channel_summary": {"type": "object"},
+    "probability_psi": {"type": "number"},
+    "latency_ms_p95": {"type": "number"},
+    "alerts": {"type": "array", "items": {"type": "string"}}
+  }
+}

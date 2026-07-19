@@ -1,0 +1,10 @@
+experiment_name: attention_mil
+model:
+  name: attention_mil
+  input_dim: 768
+  hidden_dim: 128
+  num_classes: 2
+bagging:
+  max_instances: 1024
+  sampling: tissue_weighted
+status: Ready for WSI feature bags; Not Yet Benchmarked

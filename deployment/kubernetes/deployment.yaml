@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cpathlab-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: cpathlab-api}
+  template:
+    metadata:
+      labels: {app: cpathlab-api}
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/faramarzkowsari/computational-pathology-ai-lab:1.0.0
+          ports: [{containerPort: 8000}]
+          env:
+            - {name: CPATHLAB_ALLOW_DEMO_PREDICTOR, value: "false"}
+            - {name: CPATHLAB_MODEL_PATH, value: /models/model.pt}
+          resources:
+            requests: {cpu: "250m", memory: "512Mi"}
+            limits: {cpu: "1", memory: "2Gi"}
+          readinessProbe:
+            httpGet: {path: /health, port: 8000}
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          volumeMounts:
+            - {name: model, mountPath: /models, readOnly: true}
+      volumes:
+        - name: model
+          persistentVolumeClaim: {claimName: cpathlab-model-pvc}

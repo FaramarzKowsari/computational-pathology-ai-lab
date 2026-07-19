@@ -1,0 +1,18 @@
+from __future__ import annotations
+
+import torch
+from torch import nn
+
+
+class BaselineCNN(nn.Module):
+    def __init__(self, num_classes: int = 2, dropout: float = 0.25) -> None:
+        super().__init__()
+        self.features = nn.Sequential(
+            nn.Conv2d(3, 32, 3, padding=1), nn.BatchNorm2d(32), nn.ReLU(), nn.MaxPool2d(2),
+            nn.Conv2d(32, 64, 3, padding=1), nn.BatchNorm2d(64), nn.ReLU(), nn.MaxPool2d(2),
+            nn.Conv2d(64, 128, 3, padding=1), nn.BatchNorm2d(128), nn.ReLU(), nn.AdaptiveAvgPool2d(1),
+        )
+        self.classifier = nn.Sequential(nn.Flatten(), nn.Dropout(dropout), nn.Linear(128, num_classes))
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        return self.classifier(self.features(x))

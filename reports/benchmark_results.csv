@@ -1,0 +1,7 @@
+model,status,checkpoint_source,label_budget,split_unit,seed,roc_auc,pr_auc,sensitivity,specificity,f1,balanced_accuracy,mcc,brier_score,ece,latency_ms,memory_mb,notes
+baseline_cnn,Not Yet Benchmarked,,,,,,,,,,,,,,,,,Run scripts/train.py on the licensed dataset
+resnet18,Not Yet Benchmarked,,,,,,,,,,,,,,,,,No fabricated metrics
+convnext_tiny,Not Yet Benchmarked,,,,,,,,,,,,,,,,,No fabricated metrics
+tiny_vit,Not Yet Benchmarked,,,,,,,,,,,,,,,,,No fabricated metrics
+external_foundation_adapter,Not Yet Benchmarked,,,,,,,,,,,,,,,,,Weights not redistributed
+attention_mil,Not Yet Benchmarked,,,,,,,,,,,,,,,,,Requires slide-level bags

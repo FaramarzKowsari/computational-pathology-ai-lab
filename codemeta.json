@@ -1,0 +1,25 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Computational Pathology AI Lab",
+  "version": "1.0.0",
+  "codeRepository": "https://github.com/FaramarzKowsari/computational-pathology-ai-lab",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python 3.11+",
+  "author": {
+    "@type": "Person",
+    "givenName": "Faramarz",
+    "familyName": "Kowsari",
+    "@id": "https://orcid.org/0000-0003-1692-0453"
+  },
+  "description": "Research and engineering platform for computational pathology AI. Not a medical device.",
+  "keywords": [
+    "computational pathology",
+    "medical AI",
+    "histopathology",
+    "computer vision",
+    "MLOps"
+  ],
+  "citation": "https://doi.org/10.5281/zenodo.21444837"
+}

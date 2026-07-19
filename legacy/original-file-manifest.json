@@ -1,0 +1,11 @@
+{
+  "source_repository": "https://github.com/FaramarzKowsari/Deep-Learning-Cancer-Detection-CU-Boulder",
+  "migration_script": "scripts/migrate_legacy.py",
+  "expected_files": [
+    "cnn-histopathologic-cancer-detection-colorado boulder university Assignment.ipynb",
+    "cnn-histopathologic-cancer-detection-colorado.ipynb",
+    "submission.csv",
+    "kaggle_leaderboard_submission.jpg"
+  ],
+  "integrity_policy": "Move exact local originals; do not regenerate or rewrite."
+}

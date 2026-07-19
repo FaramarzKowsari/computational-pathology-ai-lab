@@ -1,0 +1,222 @@
+computational-pathology-ai-lab/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.yml
+│   │   └── research_proposal.yml
+│   └── workflows/
+│       ├── ci.yml
+│       ├── docker.yml
+│       └── pages.yml
+├── app/
+│   └── streamlit_app.py
+├── assets/
+│   ├── computational-pathology-engineering.pdf
+│   └── social-preview.png
+├── book/
+│   ├── book_metadata.json
+│   ├── CITATION.bib
+│   ├── computational-pathology-engineering.pdf
+│   ├── README.md
+│   └── REPLACEMENT_INSTRUCTIONS.md
+├── configs/
+│   ├── baseline_cnn.yaml
+│   ├── convnext_tiny.yaml
+│   ├── densenet121.yaml
+│   ├── efficientnet_b0.yaml
+│   ├── foundation_adapter.yaml
+│   ├── mil.yaml
+│   ├── resnet18.yaml
+│   └── tiny_vit.yaml
+├── data/
+│   ├── example/
+│   │   ├── images/
+│   │   │   ├── synthetic_0000.png
+│   │   │   ├── synthetic_0001.png
+│   │   │   ├── synthetic_0002.png
+│   │   │   ├── synthetic_0003.png
+│   │   │   ├── synthetic_0004.png
+│   │   │   ├── synthetic_0005.png
+│   │   │   ├── synthetic_0006.png
+│   │   │   ├── synthetic_0007.png
+│   │   │   ├── synthetic_0008.png
+│   │   │   ├── synthetic_0009.png
+│   │   │   ├── synthetic_0010.png
+│   │   │   ├── synthetic_0011.png
+│   │   │   ├── synthetic_0012.png
+│   │   │   ├── synthetic_0013.png
+│   │   │   ├── synthetic_0014.png
+│   │   │   ├── synthetic_0015.png
+│   │   │   ├── synthetic_0016.png
+│   │   │   ├── synthetic_0017.png
+│   │   │   ├── synthetic_0018.png
+│   │   │   ├── synthetic_0019.png
+│   │   │   ├── synthetic_0020.png
+│   │   │   ├── synthetic_0021.png
+│   │   │   ├── synthetic_0022.png
+│   │   │   └── synthetic_0023.png
+│   │   └── labels.csv
+│   ├── processed/
+│   │   └── .gitkeep
+│   └── README.md
+├── deployment/
+│   ├── kubernetes/
+│   │   ├── deployment.yaml
+│   │   └── service.yaml
+│   └── README.md
+├── docs/
+│   ├── assets/
+│   │   ├── architecture.svg
+│   │   └── social-preview.png
+│   ├── ACADEMIC_PORTFOLIO.md
+│   ├── ARCHITECTURE.md
+│   ├── BENCHMARK_PROTOCOL.md
+│   ├── CLINICAL_AND_ETHICAL_LIMITATIONS.md
+│   ├── EXECUTION_STATUS.md
+│   ├── FOUNDATION_MODELS.md
+│   ├── GITHUB_DESKTOP_GUIDE_FA.md
+│   ├── GITHUB_PAGES_GUIDE.md
+│   ├── GOOGLE_SEARCH_CONSOLE_GUIDE.md
+│   ├── METHODOLOGY.md
+│   ├── MLOPS.md
+│   ├── RELEASE_GUIDE.md
+│   ├── RENAME_REPOSITORY.md
+│   ├── REPRODUCIBILITY.md
+│   ├── RESEARCH_QUESTIONS.md
+│   ├── TEACHING_SYLLABUS.md
+│   ├── UPLOAD_WITH_GITHUB_DESKTOP.md
+│   └── ZENODO_SOFTWARE_GUIDE.md
+├── examples/
+│   └── inference_example.py
+├── legacy/
+│   ├── original-file-manifest.json
+│   └── README.md
+├── model_registry/
+│   ├── example-metadata.json
+│   └── README.md
+├── models/
+│   └── README.md
+├── monitoring/
+│   └── drift-report-schema.json
+├── notebooks/
+│   ├── 00_project_origin.ipynb
+│   ├── 01_dataset_audit.ipynb
+│   ├── 02_model_benchmark.ipynb
+│   ├── 03_explainability_and_uncertainty.ipynb
+│   └── 04_whole_slide_and_mil.ipynb
+├── reports/
+│   ├── benchmark_results.csv
+│   ├── BUILD_REPORT.md
+│   ├── FILE_CREATION_REPORT.md
+│   ├── TECHNICAL_REPORT_TEMPLATE.md
+│   └── TEST_REPORT.md
+├── scripts/
+│   ├── create_checksums.py
+│   ├── evaluate.py
+│   ├── export_onnx.py
+│   ├── migrate_legacy.py
+│   ├── prepare_data.py
+│   └── train.py
+├── src/
+│   └── cpathlab/
+│       ├── api/
+│       │   ├── main.py
+│       │   └── schemas.py
+│       ├── data/
+│       │   ├── __init__.py
+│       │   ├── datasets.py
+│       │   ├── preprocessing.py
+│       │   ├── splitting.py
+│       │   ├── synthetic.py
+│       │   ├── validation.py
+│       │   └── wsi.py
+│       ├── evaluation/
+│       │   ├── __init__.py
+│       │   ├── bootstrap.py
+│       │   ├── calibration.py
+│       │   ├── domain_shift.py
+│       │   ├── errors.py
+│       │   ├── metrics.py
+│       │   └── plots.py
+│       ├── explainability/
+│       │   ├── __init__.py
+│       │   ├── attention.py
+│       │   ├── gradcam.py
+│       │   ├── integrated_gradients.py
+│       │   └── occlusion.py
+│       ├── inference/
+│       │   ├── __init__.py
+│       │   ├── batch.py
+│       │   └── predictor.py
+│       ├── models/
+│       │   ├── __init__.py
+│       │   ├── baseline.py
+│       │   ├── factory.py
+│       │   ├── foundation.py
+│       │   ├── mil.py
+│       │   └── vit.py
+│       ├── monitoring/
+│       │   ├── __init__.py
+│       │   └── drift.py
+│       ├── training/
+│       │   ├── __init__.py
+│       │   ├── engine.py
+│       │   ├── losses.py
+│       │   ├── reproducibility.py
+│       │   └── tracking.py
+│       ├── uncertainty/
+│       │   ├── __init__.py
+│       │   └── mc_dropout.py
+│       ├── __init__.py
+│       ├── cli.py
+│       └── config.py
+├── tests/
+│   ├── test_api.py
+│   ├── test_explainability.py
+│   ├── test_metrics.py
+│   ├── test_models.py
+│   ├── test_monitoring.py
+│   ├── test_splitting.py
+│   └── test_synthetic_and_validation.py
+├── website/
+│   ├── assets/
+│   │   ├── computational-pathology-engineering.pdf
+│   │   └── social-preview.png
+│   ├── .nojekyll
+│   ├── book.html
+│   ├── index.html
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   └── style.css
+├── .gitignore
+├── .pre-commit-config.yaml
+├── .zenodo.json
+├── book.html
+├── CHANGELOG.md
+├── CITATION.bib
+├── CITATION.cff
+├── CODE_OF_CONDUCT.md
+├── codemeta.json
+├── CONTRIBUTING.md
+├── DATA_CARD.md
+├── docker-compose.yml
+├── Dockerfile
+├── dvc.yaml
+├── environment.yml
+├── index.html
+├── LICENSE
+├── Makefile
+├── MODEL_CARD.md
+├── params.yaml
+├── PREPARE_WINDOWS.bat
+├── PROJECT_FILE_TREE.txt
+├── pyproject.toml
+├── README.md
+├── README_FIRST_FA.md
+├── requirements-dev.txt
+├── requirements-optional.txt
+├── requirements.txt
+├── robots.txt
+├── SECURITY.md
+├── sitemap.xml
+├── style.css
+└── VERSION

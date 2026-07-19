@@ -1,0 +1,19 @@
+experiment_name: efficientnet_b0_histopathology
+data:
+  image_dir: data/example/images
+  labels_csv: data/example/labels.csv
+  image_size: 96
+  seed: 42
+  val_fraction: 0.15
+  test_fraction: 0.15
+model:
+  name: efficientnet_b0
+  num_classes: 2
+  pretrained: false
+  dropout: 0.25
+training:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  device: auto

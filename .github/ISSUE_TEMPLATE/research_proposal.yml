@@ -1,0 +1,26 @@
+name: Research proposal
+description: Propose a benchmark or scientific extension
+title: "[Research]: "
+labels: ["research"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: "State a falsifiable research question."
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data and leakage controls
+      description: "Describe source, license, split unit, and leakage prevention."
+    validations:
+      required: true
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: Evaluation plan
+      description: "Describe metrics, confidence intervals, calibration, and external validation."
+    validations:
+      required: true
