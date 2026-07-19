@@ -1,23 +1,29 @@
 {
   "title": "Computational Pathology AI Lab",
-  "description": "Production-oriented research platform for computational pathology, explainable AI, uncertainty, whole-slide learning, and MLOps. Research and educational use only; not clinically validated.",
+  "description": "Production-oriented research platform for computational pathology, histopathology image analysis, cancer-detection research, explainable AI, uncertainty, whole-slide learning, and reproducible MLOps. Research and educational use only; not clinically validated.",
   "creators": [
     {
       "name": "Kowsari, Faramarz",
-      "orcid": "0000-0003-1692-0453"
+      "orcid": "0000-0003-1692-0453",
+      "affiliation": "Independent Researcher, Istanbul, Türkiye"
     }
   ],
   "license": "MIT",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publication_date": "2026-07-19",
+  "access_right": "open",
+  "language": "eng",
   "keywords": [
     "computational pathology",
     "medical AI",
     "histopathology",
+    "cancer detection",
     "computer vision",
-    "MLOps",
-    "explainable AI"
+    "explainable AI",
+    "whole-slide imaging",
+    "multiple instance learning",
+    "MLOps"
   ],
   "related_identifiers": [
     {
@@ -27,5 +33,5 @@
       "resource_type": "publication-book"
     }
   ],
-  "notes": "Software DOI will be assigned from the first GitHub release. The related DOI belongs to the companion book."
+  "notes": "Concept DOI for all software versions: 10.5281/zenodo.21445854. Archived version 1.0.0 DOI: 10.5281/zenodo.21445855. Companion book DOI: 10.5281/zenodo.21444837. This software is not a medical device and has not been clinically validated."
 }

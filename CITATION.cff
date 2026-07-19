@@ -1,23 +1,47 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the repository release and the companion book."
+message: "If you use this software, cite the project Concept DOI or the exact Zenodo version record required by your work."
 title: "Computational Pathology AI Lab"
 type: software
-version: 1.0.0
+version: 1.0.1
+doi: "10.5281/zenodo.21445854"
 date-released: 2026-07-19
+abstract: >-
+  A production-oriented, research-first platform for computational pathology,
+  histopathology image analysis, cancer-detection research, explainable AI,
+  uncertainty estimation, whole-slide workflows, model evaluation, and
+  reproducible MLOps. Research and educational use only; not clinically validated.
 authors:
   - family-names: Kowsari
     given-names: Faramarz
     orcid: "https://orcid.org/0000-0003-1692-0453"
+    affiliation: "Independent Researcher, Istanbul, Türkiye"
 repository-code: "https://github.com/FaramarzKowsari/computational-pathology-ai-lab"
-url: "https://FaramarzKowsari.github.io/computational-pathology-ai-lab/"
+repository-artifact: "https://doi.org/10.5281/zenodo.21445854"
+url: "https://faramarzkowsari.github.io/computational-pathology-ai-lab/"
 license: MIT
 keywords:
   - computational pathology
   - medical artificial intelligence
   - histopathology
+  - cancer detection
   - computer vision
-  - MLOps
+  - explainable artificial intelligence
+  - whole-slide imaging
+  - multiple instance learning
+  - machine learning operations
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21445854"
+    description: "Concept DOI for all versions"
 references:
+  - type: software
+    title: "Computational Pathology AI Lab, version 1.0.0"
+    authors:
+      - family-names: Kowsari
+        given-names: Faramarz
+    version: 1.0.0
+    doi: "10.5281/zenodo.21445855"
+    url: "https://doi.org/10.5281/zenodo.21445855"
   - type: book
     title: "Computational Pathology Engineering"
     authors:

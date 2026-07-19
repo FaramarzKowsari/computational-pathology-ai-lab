@@ -1,0 +1,20 @@
+Computational Pathology AI Lab — v1.0.1 metadata update
+
+Files included:
+- README.md
+- index.html
+- website/index.html
+- CITATION.cff
+- CITATION.bib
+- .zenodo.json
+- codemeta.json
+- CHANGELOG.md
+- pyproject.toml
+- src/cpathlab/__init__.py
+- docs/ZENODO_SOFTWARE_GUIDE.md
+- docs/RELEASE_GUIDE.md
+- docs/RELEASE_NOTES_v1.0.1.md
+- book/README.md
+
+Copy the contents of the computational-pathology-ai-lab folder into the
+local repository root and replace matching files.

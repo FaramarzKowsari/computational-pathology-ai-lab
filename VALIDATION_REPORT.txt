@@ -1,0 +1,8 @@
+PASS JSON: .zenodo.json
+PASS JSON: codemeta.json
+PASS TOML: pyproject.toml
+PASS YAML: CITATION.cff
+PASS HTML/JSON-LD checks: index.html
+PASS HTML/JSON-LD checks: website/index.html
+PASS version consistency: 1.0.1
+PASS DOI consistency checks

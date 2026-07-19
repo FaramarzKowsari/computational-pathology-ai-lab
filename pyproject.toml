@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "computational-pathology-ai-lab"
-version = "1.0.0"
+version = "1.0.1"
 description = "Research and engineering platform for computational pathology AI"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -39,8 +39,11 @@ all = ["mlflow>=2.14", "dvc>=3.50", "streamlit>=1.36", "openslide-python>=1.3"]
 cpathlab = "cpathlab.cli:app"
 
 [project.urls]
-Homepage = "https://FaramarzKowsari.github.io/computational-pathology-ai-lab/"
+Homepage = "https://faramarzkowsari.github.io/computational-pathology-ai-lab/"
 Repository = "https://github.com/FaramarzKowsari/computational-pathology-ai-lab"
+Documentation = "https://faramarzkowsari.github.io/computational-pathology-ai-lab/"
+"Software DOI" = "https://doi.org/10.5281/zenodo.21445854"
+"Archived v1.0.0 DOI" = "https://doi.org/10.5281/zenodo.21445855"
 Book = "https://doi.org/10.5281/zenodo.21444837"
 
 [tool.setuptools.packages.find]

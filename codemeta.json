@@ -2,24 +2,54 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "Computational Pathology AI Lab",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "identifier": "https://doi.org/10.5281/zenodo.21445854",
   "codeRepository": "https://github.com/FaramarzKowsari/computational-pathology-ai-lab",
+  "url": "https://faramarzkowsari.github.io/computational-pathology-ai-lab/",
+  "downloadUrl": "https://github.com/FaramarzKowsari/computational-pathology-ai-lab/releases/tag/v1.0.1",
   "license": "https://spdx.org/licenses/MIT.html",
   "programmingLanguage": "Python",
   "runtimePlatform": "Python 3.11+",
+  "dateCreated": "2024-09-04",
+  "dateModified": "2026-07-19",
   "author": {
     "@type": "Person",
+    "@id": "https://orcid.org/0000-0003-1692-0453",
     "givenName": "Faramarz",
     "familyName": "Kowsari",
-    "@id": "https://orcid.org/0000-0003-1692-0453"
+    "name": "Faramarz Kowsari",
+    "description": "Faramarz Kowsari is an author, Software Engineer and AI researcher based in Istanbul. Focusing on the intersection of technology, education, and personal growth, he has published over 80 digital titles on international platforms. His areas of expertise span Artificial Intelligence, prompt engineering, modern trading strategies (Smart Money Concepts & algorithmic trading), as well as classical literature and mindfulness. In addition to writing, he develops web-based educational tools and creates specialized instructional video content.",
+    "image": "https://avatars.githubusercontent.com/u/105053743?v=4",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q140389378",
+      "https://orcid.org/0000-0003-1692-0453",
+      "https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en",
+      "https://github.com/FaramarzKowsari",
+      "https://www.linkedin.com/in/faramarzkowsari",
+      "https://play.google.com/store/search?q=Faramarz_Kowsari&c=books",
+      "https://faramarzkowsari.github.io/"
+    ]
   },
-  "description": "Research and engineering platform for computational pathology AI. Not a medical device.",
+  "description": "A production-oriented, research-first platform for computational pathology, histopathology image analysis, cancer-detection research, explainable AI, uncertainty estimation, whole-slide workflows, model evaluation, and MLOps. Research and educational use only; not a medical device.",
   "keywords": [
     "computational pathology",
     "medical AI",
     "histopathology",
+    "cancer detection",
     "computer vision",
+    "explainable AI",
+    "whole-slide imaging",
+    "multiple instance learning",
     "MLOps"
   ],
-  "citation": "https://doi.org/10.5281/zenodo.21444837"
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.21445854",
+    "https://doi.org/10.5281/zenodo.21445855"
+  ],
+  "citation": {
+    "@type": "Book",
+    "name": "Computational Pathology Engineering",
+    "identifier": "https://doi.org/10.5281/zenodo.21444837",
+    "url": "https://doi.org/10.5281/zenodo.21444837"
+  }
 }

@@ -2,11 +2,13 @@
 
 **From CNN Baselines to Foundation Models, Explainable AI, and Production MLOps**
 
+**Current repository version: 1.0.1**
+
 [![CI](https://github.com/FaramarzKowsari/computational-pathology-ai-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/FaramarzKowsari/computational-pathology-ai-lab/actions/workflows/ci.yml)
 [![Docker Build](https://github.com/FaramarzKowsari/computational-pathology-ai-lab/actions/workflows/docker.yml/badge.svg)](https://github.com/FaramarzKowsari/computational-pathology-ai-lab/actions/workflows/docker.yml)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-2ea44f)](https://faramarzkowsari.github.io/computational-pathology-ai-lab/)
 [![DOI](https://zenodo.org/badge/847122798.svg)](https://doi.org/10.5281/zenodo.21445854)
-[![Version DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21445855.svg)](https://doi.org/10.5281/zenodo.21445855)
+[![Archived v1.0.0 DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21445855.svg)](https://doi.org/10.5281/zenodo.21445855)
 [![Book DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21444837.svg)](https://doi.org/10.5281/zenodo.21444837)
 [![Google Books](https://img.shields.io/badge/Google%20Books-GGKEY%3A8ZWNQ7NFGBL-4285F4)](book/README.md)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
@@ -40,9 +42,9 @@ The repository is designed as a professional portfolio for research-engineering,
 | Project website | [Open GitHub Pages](https://faramarzkowsari.github.io/computational-pathology-ai-lab/) |
 | Source repository | [View source code](https://github.com/FaramarzKowsari/computational-pathology-ai-lab) |
 | GitHub Actions | [View automated workflows](https://github.com/FaramarzKowsari/computational-pathology-ai-lab/actions) |
-| Release v1.0.0 | [View the GitHub release](https://github.com/FaramarzKowsari/computational-pathology-ai-lab/releases/tag/v1.0.0) |
+| Latest release | [View release v1.0.1](https://github.com/FaramarzKowsari/computational-pathology-ai-lab/releases/tag/v1.0.1) |
 | Software DOI — all versions | [10.5281/zenodo.21445854](https://doi.org/10.5281/zenodo.21445854) |
-| Software DOI — version 1.0.0 | [10.5281/zenodo.21445855](https://doi.org/10.5281/zenodo.21445855) |
+| Archived software DOI — version 1.0.0 | [10.5281/zenodo.21445855](https://doi.org/10.5281/zenodo.21445855) |
 | Machine-readable citation | [CITATION.cff](CITATION.cff) |
 | BibTeX citation | [CITATION.bib](CITATION.bib) |
 | Model Card | [MODEL_CARD.md](MODEL_CARD.md) |
@@ -474,23 +476,25 @@ The following items remain future research tasks:
 
 This DOI represents the software project across all current and future versions.
 
-### Version 1.0.0
+### Archived version 1.0.0
 
 **Version-specific DOI:**
 
 [10.5281/zenodo.21445855](https://doi.org/10.5281/zenodo.21445855)
 
-Use this DOI when citing the exact archived `v1.0.0` release.
+Use this DOI when citing the exact archived `v1.0.0` release. For the current project and future versions, use the Concept DOI above. Zenodo assigns a new version-specific DOI after each GitHub release is archived.
 
 ### GitHub release
 
-https://github.com/FaramarzKowsari/computational-pathology-ai-lab/releases/tag/v1.0.0
+https://github.com/FaramarzKowsari/computational-pathology-ai-lab/releases/tag/v1.0.1
 
 ## Scientific citation
 
-### Recommended citation for version 1.0.0
+### Recommended project citation
 
-Kowsari, F. (2026). *Computational Pathology AI Lab* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21445855
+Kowsari, F. (2026). *Computational Pathology AI Lab* (Version 1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21445854
+
+The Concept DOI resolves to the latest archived version. To cite the original archived `v1.0.0` release exactly, use https://doi.org/10.5281/zenodo.21445855.
 
 ### BibTeX
 
@@ -499,9 +503,9 @@ Kowsari, F. (2026). *Computational Pathology AI Lab* (Version 1.0.0) [Computer s
   author       = {Kowsari, Faramarz},
   title        = {Computational Pathology AI Lab},
   year         = {2026},
-  version      = {1.0.0},
-  doi          = {10.5281/zenodo.21445855},
-  url          = {https://doi.org/10.5281/zenodo.21445855},
+  version      = {1.0.1},
+  doi          = {10.5281/zenodo.21445854},
+  url          = {https://doi.org/10.5281/zenodo.21445854},
   repository   = {https://github.com/FaramarzKowsari/computational-pathology-ai-lab},
   license      = {MIT}
 }
@@ -614,6 +618,6 @@ External datasets, pretrained model weights, third-party software, and the compa
 **Repository:** https://github.com/FaramarzKowsari/computational-pathology-ai-lab  
 **Project website:** https://faramarzkowsari.github.io/computational-pathology-ai-lab/  
 **Software DOI — all versions:** https://doi.org/10.5281/zenodo.21445854  
-**Software DOI — version 1.0.0:** https://doi.org/10.5281/zenodo.21445855  
+**Archived software DOI — version 1.0.0:** https://doi.org/10.5281/zenodo.21445855  
 **Book DOI:** https://doi.org/10.5281/zenodo.21444837  
 **Google Books Key:** `GGKEY:8ZWNQ7NFGBL`

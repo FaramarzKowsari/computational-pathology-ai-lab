@@ -2,6 +2,20 @@
 
 All notable changes are documented here.
 
+## [1.0.1] - 2026-07-19
+
+### Changed
+- Added the Zenodo Concept DOI for all software versions.
+- Preserved the archived `v1.0.0` version-specific DOI.
+- Unified README, GitHub Pages, citation, CodeMeta, and Zenodo metadata.
+- Added the stable author biography, consistent author image, and official profile links.
+- Expanded `Person`, `WebPage`, `SoftwareSourceCode`, and `Book` structured data.
+- Updated package and source version metadata to `1.0.1`.
+- Added release documentation for the metadata and discoverability patch.
+
+### Scientific status
+No clinical validation, external benchmark, foundation-model score, or diagnostic claim is added by this release.
+
 ## [1.0.0] - 2026-07-19
 
 ### Added
