@@ -1,19 +1,121 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Computational Pathology AI Lab | Faramarz Kowsari</title>
-<meta name="description" content="Production-oriented computational pathology research platform: CNNs, transformers, foundation adapters, whole-slide MIL, explainable AI, uncertainty, MLOps, API, and academic documentation.">
-<link rel="canonical" href="https://FaramarzKowsari.github.io/computational-pathology-ai-lab/">
-<meta property="og:title" content="Computational Pathology AI Lab"><meta property="og:description" content="From CNN baselines to foundation models, explainable AI, and production MLOps."><meta property="og:type" content="website"><meta property="og:url" content="https://FaramarzKowsari.github.io/computational-pathology-ai-lab/"><meta property="og:image" content="https://FaramarzKowsari.github.io/computational-pathology-ai-lab/assets/social-preview.png">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Computational Pathology AI Lab"><meta name="twitter:description" content="Research, engineering, computer vision, MLOps, and technical authorship in one reproducible platform.">
-<link rel="stylesheet" href="style.css">
-<script type="application/ld+json">{
-"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"Computational Pathology AI Lab","description":"Production-oriented computational pathology research platform for cancer detection, explainable AI, uncertainty, whole-slide learning, and MLOps.","codeRepository":"https://github.com/FaramarzKowsari/computational-pathology-ai-lab","programmingLanguage":"Python","license":"https://opensource.org/licenses/MIT","version":"1.0.0","author":{"@type":"Person","name":"Faramarz Kowsari","sameAs":["https://orcid.org/0000-0003-1692-0453","https://github.com/FaramarzKowsari","https://www.linkedin.com/in/faramarzkowsari/"]},"isBasedOn":{"@type":"CreativeWork","name":"Deep Learning Cancer Detection - University of Colorado Boulder project"},"citation":{"@type":"Book","name":"Computational Pathology Engineering","identifier":["https://doi.org/10.5281/zenodo.21444837","GGKEY:8ZWNQ7NFGBL"]}}
-</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Computational Pathology Engineering","alternativeHeadline":"From Histology Patches and CNNs to Whole-Slide Foundation Models, Explainable AI, and Production MLOps","author":{"@type":"Person","name":"Faramarz Kowsari"},"identifier":["https://doi.org/10.5281/zenodo.21444837","GGKEY:8ZWNQ7NFGBL"],"url":"book.html"}</script>
-</head><body>
-<section class="hero"><div class="wrap"><div class="eyebrow">Open research software</div><h1>Computational Pathology AI Lab</h1><p>From CNN Baselines to Foundation Models, Explainable AI, and Production MLOps</p><a class="button" href="https://github.com/FaramarzKowsari/computational-pathology-ai-lab">View source</a><a class="button" href="book.html">Companion book</a></div></section>
-<main class="wrap"><div class="notice"><strong>Research and educational use only.</strong> This project is not a medical device and has not been clinically validated.</div>
-<h2>Four professional pillars</h2><div class="grid"><div class="card"><h3>Medical AI Research</h3><p>Leakage controls, calibration, uncertainty, confidence intervals, error analysis, and domain shifts.</p></div><div class="card"><h3>ML Engineering</h3><p>Typed package, tests, CI, Docker, DVC, MLflow hooks, registry structure, API, and monitoring.</p></div><div class="card"><h3>Computer Vision</h3><p>CNNs, transfer learning, ViT, external foundation adapters, tissue patches, WSI utilities, and MIL.</p></div><div class="card"><h3>Academic Authorship</h3><p>Teaching notebooks, methodology, model/data cards, research questions, technical report, and book.</p></div></div>
-<h2>Evidence status</h2><p>CPU smoke tests and synthetic workflows are executable. Real histopathology benchmarks, external validation, foundation-model comparisons, and clinical validation are explicitly <strong>Not Yet Benchmarked</strong> or <strong>Not Performed</strong>.</p>
-<h2>Book</h2><p><strong>Computational Pathology Engineering</strong><br>DOI: <a href="https://doi.org/10.5281/zenodo.21444837">10.5281/zenodo.21444837</a><br>Google Books: <code>GGKEY:8ZWNQ7NFGBL</code></p>
-</main><footer class="dark"><div class="wrap">Faramarz Kowsari - Author, Software Engineer, and AI Researcher <span class="meta">| Version 1.0.0</span></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Computational Pathology AI Lab | Faramarz Kowsari</title>
+  <meta name="description" content="Computational Pathology AI Lab by Faramarz Kowsari: cancer detection, deep learning, explainable AI, whole-slide imaging, foundation-model adapters, and reproducible MLOps.">
+  <meta name="author" content="Faramarz Kowsari">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#0d2447">
+  <link rel="canonical" href="https://faramarzkowsari.github.io/computational-pathology-ai-lab/">
+  <link rel="author" href="https://faramarzkowsari.github.io/">
+  <meta property="og:site_name" content="Faramarz Kowsari — Official Website">
+  <meta property="og:title" content="Computational Pathology AI Lab">
+  <meta property="og:description" content="From CNN baselines to foundation models, explainable AI, and production MLOps.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://faramarzkowsari.github.io/computational-pathology-ai-lab/">
+  <meta property="og:image" content="https://faramarzkowsari.github.io/computational-pathology-ai-lab/assets/social-preview.png">
+  <meta property="og:image:alt" content="Computational Pathology AI Lab by Faramarz Kowsari">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Computational Pathology AI Lab">
+  <meta name="twitter:description" content="Medical AI research, computer vision, MLOps, and academic technical authorship in one reproducible platform.">
+  <meta name="twitter:image" content="https://faramarzkowsari.github.io/computational-pathology-ai-lab/assets/social-preview.png">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://faramarzkowsari.github.io/#faramarz-kowsari","name":"Faramarz Kowsari","alternateName":"FaramarzKowsari","description":"Faramarz Kowsari is an author, Software Engineer and AI researcher based in Istanbul. Focusing on the intersection of technology, education, and personal growth, he has published over 80 digital titles on international platforms. His areas of expertise span Artificial Intelligence, prompt engineering, modern trading strategies (Smart Money Concepts & algorithmic trading), as well as classical literature and mindfulness. In addition to writing, he develops web-based educational tools and creates specialized instructional video content.","image":"https://avatars.githubusercontent.com/u/105053743?v=4","url":"https://faramarzkowsari.github.io/","jobTitle":["Author","Software Engineer","AI Researcher"],"homeLocation":{"@type":"Place","name":"Istanbul, Türkiye"},"identifier":[{"@type":"PropertyValue","propertyID":"ORCID","value":"0000-0003-1692-0453"},{"@type":"PropertyValue","propertyID":"Wikidata","value":"Q140389378"}],"sameAs":["https://www.wikidata.org/wiki/Q140389378","https://orcid.org/0000-0003-1692-0453","https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en","https://github.com/FaramarzKowsari","https://www.linkedin.com/in/faramarzkowsari","https://play.google.com/store/search?q=Faramarz_Kowsari&c=books","https://zenodo.org/search?q=creators.orcid%3A%220000-0003-1692-0453%22&l=list&p=1&s=10&sort=bestmatch"]},{"@type":"WebSite","@id":"https://faramarzkowsari.github.io/#website","url":"https://faramarzkowsari.github.io/","name":"Faramarz Kowsari — Official Website","publisher":{"@id":"https://faramarzkowsari.github.io/#faramarz-kowsari"}},{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/computational-pathology-ai-lab/#webpage","url":"https://faramarzkowsari.github.io/computational-pathology-ai-lab/","name":"Computational Pathology AI Lab | Faramarz Kowsari","description":"Production-oriented computational pathology research platform for cancer detection, explainable AI, uncertainty, whole-slide learning, and reproducible MLOps.","isPartOf":{"@id":"https://faramarzkowsari.github.io/#website"},"about":[{"@id":"https://faramarzkowsari.github.io/#faramarz-kowsari"},{"@id":"https://faramarzkowsari.github.io/computational-pathology-ai-lab/#software"}],"mainEntity":{"@id":"https://faramarzkowsari.github.io/computational-pathology-ai-lab/#software"},"author":{"@id":"https://faramarzkowsari.github.io/#faramarz-kowsari"}},{"@type":"SoftwareSourceCode","@id":"https://faramarzkowsari.github.io/computational-pathology-ai-lab/#software","name":"Computational Pathology AI Lab","alternateName":"computational-pathology-ai-lab","description":"A production-oriented, research-first platform for computational pathology, cancer detection, deep learning, explainable AI, uncertainty estimation, whole-slide imaging, foundation-model adapters, and MLOps.","url":"https://faramarzkowsari.github.io/computational-pathology-ai-lab/","codeRepository":"https://github.com/FaramarzKowsari/computational-pathology-ai-lab","downloadUrl":"https://github.com/FaramarzKowsari/computational-pathology-ai-lab/releases/tag/v1.0.0","programmingLanguage":"Python","runtimePlatform":"Python 3.11+","version":"1.0.0","datePublished":"2026-07-19","license":"https://opensource.org/licenses/MIT","author":{"@id":"https://faramarzkowsari.github.io/#faramarz-kowsari"},"creator":{"@id":"https://faramarzkowsari.github.io/#faramarz-kowsari"},"identifier":[{"@type":"PropertyValue","propertyID":"Zenodo Concept DOI","value":"10.5281/zenodo.21445854","url":"https://doi.org/10.5281/zenodo.21445854"},{"@type":"PropertyValue","propertyID":"Zenodo Version DOI","value":"10.5281/zenodo.21445855","url":"https://doi.org/10.5281/zenodo.21445855"}],"sameAs":["https://github.com/FaramarzKowsari/computational-pathology-ai-lab","https://doi.org/10.5281/zenodo.21445854","https://doi.org/10.5281/zenodo.21445855"],"isBasedOn":{"@type":"CreativeWork","name":"Deep Learning Cancer Detection — University of Colorado Boulder graduate-course project"},"citation":{"@id":"https://faramarzkowsari.github.io/computational-pathology-ai-lab/#book"}},{"@type":"Book","@id":"https://faramarzkowsari.github.io/computational-pathology-ai-lab/#book","name":"Computational Pathology Engineering","alternativeHeadline":"From Histology Patches and CNNs to Whole-Slide Foundation Models, Explainable AI, and Production MLOps","author":{"@id":"https://faramarzkowsari.github.io/#faramarz-kowsari"},"url":"https://faramarzkowsari.github.io/computational-pathology-ai-lab/book.html","identifier":[{"@type":"PropertyValue","propertyID":"DOI","value":"10.5281/zenodo.21444837","url":"https://doi.org/10.5281/zenodo.21444837"},{"@type":"PropertyValue","propertyID":"Google Books Key","value":"GGKEY:8ZWNQ7NFGBL"}],"sameAs":["https://doi.org/10.5281/zenodo.21444837"]}]}</script>
+</head>
+<body>
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Open research software by Faramarz Kowsari</div>
+      <h1>Computational Pathology AI Lab</h1>
+      <p>From CNN Baselines to Foundation Models, Explainable AI, and Production MLOps</p>
+      <a class="button" href="https://github.com/FaramarzKowsari/computational-pathology-ai-lab">View source</a>
+      <a class="button" href="https://doi.org/10.5281/zenodo.21445854">Software DOI</a>
+      <a class="button" href="book.html">Companion book</a>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div class="notice">
+      <strong>Research and educational use only.</strong>
+      This project is not a medical device and has not been clinically validated.
+    </div>
+
+    <h2>Project overview</h2>
+    <p>
+      Computational Pathology AI Lab is a production-oriented, research-first platform for
+      histopathology image analysis, cancer-detection research, explainable deep learning,
+      uncertainty estimation, whole-slide workflows, model evaluation, and reproducible MLOps.
+      It began as a University of Colorado Boulder graduate-course project and has been expanded
+      into a maintainable engineering and academic portfolio.
+    </p>
+
+    <h2>Four professional pillars</h2>
+    <div class="grid">
+      <div class="card"><h3>Medical AI Research</h3><p>Leakage controls, calibration, uncertainty, confidence intervals, error analysis, domain shifts, and external-validation readiness.</p></div>
+      <div class="card"><h3>ML Engineering and MLOps</h3><p>Typed Python package, tests, CI, Docker, DVC, MLflow hooks, model-registry structure, API serving, and monitoring.</p></div>
+      <div class="card"><h3>Computer Vision Engineering</h3><p>CNNs, transfer learning, Vision Transformers, foundation-model adapters, tissue patches, WSI utilities, MIL, and explainability.</p></div>
+      <div class="card"><h3>Academic Teaching and Authorship</h3><p>Teaching notebooks, methodology, model and data cards, research questions, a technical report, and a companion book.</p></div>
+    </div>
+
+    <h2>Permanent identifiers</h2>
+    <div class="grid">
+      <div class="card"><h3>Software — all versions</h3><p><a href="https://doi.org/10.5281/zenodo.21445854">10.5281/zenodo.21445854</a></p></div>
+      <div class="card"><h3>Software — version 1.0.0</h3><p><a href="https://doi.org/10.5281/zenodo.21445855">10.5281/zenodo.21445855</a></p></div>
+      <div class="card"><h3>Companion book</h3><p><a href="https://doi.org/10.5281/zenodo.21444837">10.5281/zenodo.21444837</a><br><code>GGKEY:8ZWNQ7NFGBL</code></p></div>
+    </div>
+
+    <h2>Evidence status</h2>
+    <p>
+      CPU smoke tests, synthetic-data workflows, automated tests, CI, Docker build, and GitHub
+      Pages deployment are operational. Real histopathology benchmarks, external validation,
+      foundation-model comparisons, and clinical validation are explicitly
+      <strong>Not Yet Benchmarked</strong> or <strong>Not Performed</strong>.
+    </p>
+
+    <h2>Companion book</h2>
+    <p>
+      <strong>Computational Pathology Engineering</strong><br>
+      <em>From Histology Patches and CNNs to Whole-Slide Foundation Models, Explainable AI, and Production MLOps</em><br>
+      Author: Faramarz Kowsari<br>
+      DOI: <a href="https://doi.org/10.5281/zenodo.21444837">10.5281/zenodo.21444837</a><br>
+      Google Books Key: <code>GGKEY:8ZWNQ7NFGBL</code>
+    </p>
+
+    <h2>About the author</h2>
+    <div class="card" style="display:grid;grid-template-columns:minmax(160px,220px) 1fr;gap:28px;align-items:start">
+      <div>
+        <img src="https://avatars.githubusercontent.com/u/105053743?v=4"
+             alt="Faramarz Kowsari"
+             width="220"
+             height="220"
+             loading="lazy"
+             style="width:100%;height:auto;border-radius:18px">
+      </div>
+      <div>
+        <h3>Faramarz Kowsari</h3>
+        <p>Faramarz Kowsari is an author, Software Engineer and AI researcher based in Istanbul. Focusing on the intersection of technology, education, and personal growth, he has published over 80 digital titles on international platforms. His areas of expertise span Artificial Intelligence, prompt engineering, modern trading strategies (Smart Money Concepts &amp; algorithmic trading), as well as classical literature and mindfulness. In addition to writing, he develops web-based educational tools and creates specialized instructional video content.</p>
+        <h3>Official Profiles &amp; Repositories</h3>
+        <ul>
+          <li><a href="https://www.wikidata.org/wiki/Q140389378">Wikidata</a></li>
+          <li><a href="https://orcid.org/0000-0003-1692-0453">ORCID</a></li>
+          <li><a href="https://scholar.google.com/citations?user=G7tP5WMAAAAJ&amp;hl=en">Google Scholar</a></li>
+          <li><a href="https://github.com/FaramarzKowsari">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/faramarzkowsari">LinkedIn</a></li>
+          <li><a href="https://play.google.com/store/search?q=Faramarz_Kowsari&amp;c=books">Google Books</a></li>
+          <li><a href="https://faramarzkowsari.github.io/">Official Website</a></li>
+          <li><a href="https://zenodo.org/search?q=creators.orcid%3A%220000-0003-1692-0453%22&amp;l=list&amp;p=1&amp;s=10&amp;sort=bestmatch">Zenodo Records</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="dark">
+    <div class="wrap">
+      Faramarz Kowsari — Author, Software Engineer and AI researcher based in Istanbul
+      <span class="meta"> | Computational Pathology AI Lab v1.0.0</span>
+    </div>
+  </footer>
+</body>
+</html>
