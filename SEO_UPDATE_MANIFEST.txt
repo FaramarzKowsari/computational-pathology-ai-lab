@@ -1,0 +1,14 @@
+Google Search Console and SEO update
+
+Copy these files into the root of the local repository:
+
+website/robots.txt
+website/sitemap.xml
+website/book.html
+website/404.html
+docs/GOOGLE_SEARCH_CONSOLE_GUIDE_FA.md
+scripts/validate_seo_files.py
+
+Important:
+The unique Google verification HTML file cannot be generated in advance.
+Download it from Search Console and place it directly inside website/.

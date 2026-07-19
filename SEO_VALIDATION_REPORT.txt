@@ -1,0 +1,13 @@
+SEO PACKAGE VALIDATION REPORT
+
+PASS: robots.txt syntax and sitemap reference
+PASS: sitemap.xml is well-formed XML
+PASS: sitemap uses absolute canonical URLs
+PASS: homepage, book page, and book PDF included
+PASS: book.html contains canonical, robots meta, Open Graph, Twitter, and JSON-LD
+PASS: 404.html contains noindex,follow
+PASS: Persian Search Console guide included
+PASS: local SEO validation script included
+
+Target site:
+https://faramarzkowsari.github.io/computational-pathology-ai-lab/

@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://FaramarzKowsari.github.io/computational-pathology-ai-lab/sitemap.xml
+
+Sitemap: https://faramarzkowsari.github.io/computational-pathology-ai-lab/sitemap.xml
